@@ -1,3 +1,4 @@
+!pip install --upgrade pip
 from flask import Flask, url_for, redirect, render_template, request, session
 import mysql.connector, os, re
 import pandas as pd
