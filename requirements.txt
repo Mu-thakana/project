@@ -1,4 +1,7 @@
-python_version=="sys.version"
+import sys
+import streamlit as st
+
+st.write("Python version:", sys.version)
 scikit-learn==1.2.2
 pandas==2.2.3
 numpy==1.23.5
